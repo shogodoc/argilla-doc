@@ -79,5 +79,5 @@ Dashboard
 Ссылки
 =======
 
-`Описание reStructureText формата <https://docs22.readthedocs.io/en/latest/rst-markup.html>`_
-`Отформатированная документация на Readthedocs <https://argilla.readthedocs.io/ru/latest/>`_
+* `Описание reStructureText формата <https://docs22.readthedocs.io/en/latest/rst-markup.html>`_
+* `Отформатированная документация на Readthedocs <https://argilla.readthedocs.io/ru/latest/>`_

@@ -1,6 +1,8 @@
 Argilla документация
 ====================
 
+
+
 Модули
 ------------------
 
@@ -53,3 +55,4 @@ Alert
 Компонете Alert позволяет выводить всплываючие (flash) сообщения на стараницах и добавлять сообщения в виджет **AlertDashboardWidget**
 
 
+`Описание reStructureText формата <https://docs22.readthedocs.io/en/latest/rst-markup.html>`_

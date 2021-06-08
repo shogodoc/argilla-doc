@@ -1,68 +1,21 @@
 Документация по Argilla
 ====================
 
-.. contents:: Содержание
-   :depth: 3
-
-
-Содержание:
-
-.. toctree::
+.. toctree:: Содержание
    :maxdepth: 3
    :glob:
 
    *
-
-Индексы и таблицы
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-
-Модули
-~~~~~~
-
-Конфигурация модулей
-"""""""""""""""
-
-Для модулей существует 2 варианта конфигурации. Первый это конфигурация по умолчанию, располагается по пути ``protected/modules/[название модуля]/default_config.json``. Второй переопределяет конфигурацию по умолчанию, путем объединения. Располагается ``protected/config/[название модуля]_module.json``, для модуля review это будет файл ``protected/config/review_module.json``. Конфигурационные файлы имеют формат json и должны быть валидны.
-Пример конфигурационного файла: ::
-
- {
-   "fields": {
-     "author_email": true,
-     "author_name": {
-       "show": true,
-       "label": "Имя автора"
-     },
-     "text_positive": false,
-     "text_negative": false,
-     "rating": true,
-     "like": false,
-     "dislike": false,
-     "url": true
-   }
- }
-
-Поле ``"fields"`` отвечает за отключение полей в backend. Содержит название атрибутов моделей как ключа например ``author_email`` и может принимать значение ``true`` или ``false``. Так же можно задавать ``label`` для этого нужно записать конфигурацию как в примере::
-
-     "author_name": {
-       "show": true,
-       "label": "Имя автора"
-     },
-
-``show`` отвечает за видимость поля в grid и в форме.
-
-.. note:: Если поле ``"fields"`` не задано в конфигурационном файле, то оно включено по умолчанию!
-
-
-Консоль
--------
 
 Ссылки
 =======
 
 * `Описание reStructureText формата <https://docs22.readthedocs.io/en/latest/rst-markup.html>`_
 * `Отформатированная документация на Readthedocs <https://argilla.readthedocs.io/ru/latest/>`_
+
+Индексы
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

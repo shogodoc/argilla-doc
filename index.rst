@@ -4,6 +4,22 @@
 .. contents:: Содержание
    :depth: 3
 
+
+Содержание:
+
+.. toctree::
+   :maxdepth: 3
+   :glob:
+
+   *
+
+Индексы и таблицы
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
 Структура
 ---------
 
